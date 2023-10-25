@@ -30,13 +30,14 @@
     padding: 60px;
     display: flex;
     align-items: end;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .texto-principal{
     width: 40%;
-    padding-left: 60px;
+    
 }
 
+/*Formulario*/
 .form{
     width: minx-content;
     border-radius: 30px;
@@ -67,8 +68,8 @@
     border-radius: 10px;
     background-color:#4A7C59;
     color: #FAFAFA;
-    height: 30px;
-    width: 350px;
+    height: 35px;
+    width: 360px;
     border-radius: 10px;
 }
 /*Sección Áreas de Práctica*/
@@ -85,10 +86,18 @@
     padding: 30px;
     padding-bottom: 60px;
     display: flex;
+    justify-content: center;
+    
 }
 
 .area-container{
-    width: 25%;
+    width: 250px;
+    height: 240px;
+    border-radius: 30px;
+    border-color: #4A7C59;
+    font-family: Poppins, sans-serif;
+    margin: 40px;
+    
 }
 
 /*Sección Prguntas Frecuentes*/
@@ -116,7 +125,7 @@
     background-color: #86A890;
     margin-bottom: 40px;
     text-align: left;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;   
@@ -139,7 +148,7 @@
     align-items: center;
     justify-content: space-between;
     padding-inline: 120px;
-    padding-block: 60px;
+    padding-block: 50px;
 }
 
 .contacto{
