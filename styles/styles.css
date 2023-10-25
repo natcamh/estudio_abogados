@@ -1,15 +1,27 @@
+/*General*/
 .home, footer{
     font-family: 'Poppins', sans-serif;
 
 }
-.h2{
-    text-align: center;
-    margin-top: 90px;
+
+/*Nav Bar*/
+.navbar{
+    background-color: #4A7C59;
+    padding-inline: 30px;
+    padding-block: 20px;
+    display: flex;
+    align-items: center;
+    color: #FAFAFA;
+    
 }
 
-.derecho{
-    text-align: center;
+.logo-principal{
+    height: 70px;
+    width: 70px;
+    margin-right: 20px;
 }
+
+/*Sección principal*/
 .main{
     color: #FAFAFA;
     background-image: url(/assets/imagen-presentacion.jpg);
@@ -20,7 +32,6 @@
     align-items: end;
     justify-content: space-between;
 }
-
 .texto-principal{
     width: 40%;
     padding-left: 60px;
@@ -33,7 +44,6 @@
     background-color: #FAFAFA;
     padding: 30px;
     border-width: 100px;
-
 }
 
 #form-ele{
@@ -43,42 +53,17 @@
     border-color: #474747;
     color: #474747;
     background-color: #FAFAFA;
-    border-width: 30px;
-    
+    border-width: 30px; 
 }
 
-.footer{
-    color: #0F1912;
-    background-color: #4A7C59;
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-inline: 120px;
-    padding-block: 60px;
-
+/*Sección Áreas de Práctica*/
+.h2{
+    text-align: center;
+    margin-top: 90px;
 }
 
-.logo-principal{
-    height: 70px;
-    width: 70px;
-    margin-right: 20px;
-   
-}
-
-.navbar{
-    background-color: #4A7C59;
-    padding-inline: 30px;
-    padding-block: 20px;
-    display: flex;
-    align-items: center;
-    color: #FAFAFA;
-    
-}
-.icono{
-    height: 15px;
-    width: 20px;
-    margin-right: 20px;
+.derecho{
+    text-align: center;
 }
 
 .areas{
@@ -89,10 +74,9 @@
 
 .area-container{
     width: 25%;
-    
-
 }
 
+/*Sección Prguntas Frecuentes*/
 .preg-frec{
     background-image: url(/assets/imagen-preguntas-frecuentes.jpg);
     background-size: cover;
@@ -101,13 +85,36 @@
     display: flex;
     padding-block: 60px;
     padding-left: 60px;
-
 }
 
 .questions{
     width: 55%;
     display: grid;
     align-items: center;
+}
+
+.dropdown{
+    color: #FAFAFA;
+    border-radius: 30px;
+    border-color: #4A7C59;
+    background-color: #86A890;
+    margin-bottom: 40px;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+/*Footer*/
+.footer{
+    color: #0F1912;
+    background-color: #4A7C59;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 120px;
+    padding-block: 60px;
 }
 
 .contacto{
@@ -122,6 +129,18 @@
     height: 150px;
 }
 
+.redes-sociales{
+    display: flex;
+    align-items: center;  
+}
+
+/*Iconos*/
+.icono{
+    height: 15px;
+    width: 20px;
+    margin-right: 20px;
+}
+
 .icono-rrss{
     width: 50px;
     height: 50px;
@@ -131,26 +150,4 @@
 .salta-coders{
     width: 100px;
     height: 15px;
-}
-
-
-
-.redes-sociales{
-    display: flex;
-    align-items: center;
-    
-}
-
-.dropdown{
-    color: #FAFAFA;
-    border-radius: 30px;
-    border-color: #4A7C59;
-    background-color: #86A890;
-    margin-bottom: 40px;
-    text-align: left;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
 }
