@@ -38,24 +38,39 @@
 }
 
 .form{
-    width: 40%;
+    width: minx-content;
     border-radius: 30px;
+    border: #0F1912;
+    border-width: 30px;
     border-color: #4A7C59;
     background-color: #FAFAFA;
     padding: 30px;
-    border-width: 100px;
+    color: #0F1912;
+    display: grid;
+    justify-content: center;
 }
 
+.text-form{
+    text-align: center;
+}
 #form-ele{
-    width: 35%;
-    height: 50px;
-    border-radius: 100px;
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
     border-color: #474747;
     color: #474747;
     background-color: #FAFAFA;
-    border-width: 30px; 
+    margin-bottom: 20px;
 }
 
+.btn{
+    border-radius: 10px;
+    background-color:#4A7C59;
+    color: #FAFAFA;
+    height: 30px;
+    width: 350px;
+    border-radius: 10px;
+}
 /*Sección Áreas de Práctica*/
 .h2{
     text-align: center;
