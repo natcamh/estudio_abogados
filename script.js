@@ -10,13 +10,13 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-<script>
+
 document.addEventListener("DOMContentLoaded", function() {
-    var logoImagen = document.querySelector(".logo-secundario");
-    
-    logoImagen.addEventListener("click", function() {
-        // Desplaza la página hacia la parte superior (inicio de la página)
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.addEventListener("keydown", function(event) {
+        if (event.key === "F5") {
+            event.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
     });
 });
-</script>
+
