@@ -80,6 +80,8 @@
 
 .derecho{
     text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 
 .areas{
@@ -90,16 +92,20 @@
     
 }
 
-.area-container{
+.card{
     width: 250px;
     height: 240px;
+    border: 3px solid #4A7C59;
     border-radius: 30px;
-    border-color: #4A7C59;
     font-family: Poppins, sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 40px;
-    
+    padding: 20px;
 }
 
+.contenido{
+    margin-top: 10px;
+}
 /*Sección Prguntas Frecuentes*/
 .preg-frec{
     background-image: url(/assets/imagen-preguntas-frecuentes.jpg);
