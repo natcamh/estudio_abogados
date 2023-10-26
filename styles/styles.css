@@ -24,7 +24,7 @@
 /*Sección principal*/
 .main{
     color: #FAFAFA;
-    background-image: url(/assets/imagen-presentacion.jpg);
+    background-image: url(../assets/imagen-presentacion.jpg);
     background-size: cover;
     background-position: center;
     padding: 60px;
@@ -102,7 +102,7 @@
 
 /*Sección Prguntas Frecuentes*/
 .preg-frec{
-    background-image: url(/assets/imagen-preguntas-frecuentes.jpg);
+    background-image: url(../assets/imagen-preguntas-frecuentes.jpg);
     background-size: cover;
     background-position: center;
     color: #FAFAFA;
