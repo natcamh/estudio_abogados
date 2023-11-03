@@ -36,7 +36,7 @@
     justify-content: space-evenly;
 }
 .texto-principal{
-    width: 70%; 
+    width: 50%; 
 }
 
 /*Formulario*/
@@ -46,15 +46,17 @@
     border: 5px solid #4A7C59;
     border-color: #4A7C59;
     background-color: #FAFAFA;
-    padding: 1.5%;
+    padding: 2%;
     color: #0F1912;
     display: grid;
     justify-content: center;
     flex-wrap: wrap;
+    font-family: Poppins;
 }
 
 .text-form{
     text-align: center;
+    margin-bottom: 20px;
 }
 #form-ele{
     width: 100%;
@@ -66,8 +68,18 @@
     margin-bottom: 20px;
 }
 
+#textarea{
+    font-family:Poppins;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #474747;
+    color: #474747;
+    background-color: #FAFAFA;
+    margin-bottom: 20px;
+}
 .btn{
     border-radius: 10px;
+    border: 2px solid #474747;
     background-color:#4A7C59;
     color: #FAFAFA;
     height: 35px;
@@ -79,19 +91,29 @@
     text-align: center;
     margin-top: 5%;
 }
+.icono-derecho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
+}
+.icono-justicia{
+    width: 50px;
+    height: 50px;
+    padding-bottom: .5em;
+}
 .derecho{
     text-align: center;
     font-size: 1.25rem;
     font-weight: bold;
+    justify-content: center;
 }
 
 .areas{
-    padding: 5% 2%;
+    padding: 5%;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-
 }
 
 .card{
@@ -101,7 +123,10 @@
     font-family: Poppins, sans-serif;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 2.5%;
-    padding: 5%;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
 }
 
 .contenido{
