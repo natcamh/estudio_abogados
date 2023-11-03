@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 <body>
     <section class="home">
@@ -16,22 +19,26 @@
             <p>Estudio Jurídico Fauget & Asoc.</p>
         </div>
         <div class="main">
-            <div class="texto-principal">
-            <h1>Despacho Legal y Contable de Expertos Tributarios</h1>
-            <p>Nuestra firma legal está integrada por un selecto grupo de abogados y contadores altamente especializados en consultoría jurídica y contable, así como en litigios tributarios y comerciales, brindando servicios a particulares y empresas.</p>
-            </div>
-            <div class="form">
-                <div class="text-form">
-                <h4>Complete el formulario</h4>
-                <p>Nos comunicaremos con usted a la brevedad</p>
+
+                <div class="texto-principal">
+                <h1>Despacho Legal y Contable de Expertos Tributarios</h1>
+                <p>Nuestra firma legal está integrada por un selecto grupo de abogados y contadores altamente especializados en consultoría jurídica y contable, así como en litigios tributarios y comerciales, brindando servicios a particulares y empresas.</p>
                 </div>
-                <input id="form-ele" name="nombre" placeholder="Nombre"></input>
-                <input id="form-ele" name="email" placeholder="Email"></input>
-                <input id="form-ele" name="tel" placeholder="Teléfono"></input>
-                <input id="form-ele" name="consulta" placeholder="Consulta"></input>
-                <button class="btn">Enviar</button>
-            </div>
-        </div>
+
+                <div class="form">
+                    <div class="text-form">
+                    <h4>Complete el formulario</h4>
+                    <p>Nos comunicaremos con usted a la brevedad</p>
+                    </div>
+                    <form id="miFormulario">
+                    <input id="form-ele" name="nombre" placeholder="Nombre"></input>
+                    <input id="form-ele" name="email" placeholder="Email"></input>
+                    <input id="form-ele" name="tel" placeholder="Teléfono"></input>
+                    <input id="form-ele" name="consulta" placeholder="Consulta"></input>
+                    <button type="submit" form="miFormulario" class="btn">Enviar</button>
+                </form>
+                </div>
+                </div>
         <h2 class="h2">Áreas de práctica</h2>
         <div class="areas">
             

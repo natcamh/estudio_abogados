@@ -1,3 +1,6 @@
+*{
+    margin: 0%;
+}
 /*General*/
 .home, footer{
     font-family: 'Poppins', sans-serif;
@@ -27,38 +30,37 @@
     background-image: url(/assets/imagen-presentacion.jpg);
     background-size: cover;
     background-position: center;
-    padding: 60px;
+    padding: 5% 2%;
     display: flex;
     align-items: end;
     justify-content: space-evenly;
 }
 .texto-principal{
-    width: 40%;
-    
+    width: 70%; 
 }
 
 /*Formulario*/
 .form{
-    width: minx-content;
+    width: 30%;
     border-radius: 30px;
-    border: #0F1912;
-    border-width: 30px;
+    border: 5px solid #4A7C59;
     border-color: #4A7C59;
     background-color: #FAFAFA;
-    padding: 30px;
+    padding: 1.5%;
     color: #0F1912;
     display: grid;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .text-form{
     text-align: center;
 }
 #form-ele{
-    width: 350px;
+    width: 100%;
     height: 30px;
     border-radius: 10px;
-    border-color: #474747;
+    border: 2px solid #474747;
     color: #474747;
     background-color: #FAFAFA;
     margin-bottom: 20px;
@@ -69,13 +71,13 @@
     background-color:#4A7C59;
     color: #FAFAFA;
     height: 35px;
-    width: 360px;
+    width: 100%;
     border-radius: 10px;
 }
 /*Sección Áreas de Práctica*/
 .h2{
     text-align: center;
-    margin-top: 90px;
+    margin-top: 5%;
 }
 
 .derecho{
@@ -85,22 +87,21 @@
 }
 
 .areas{
-    padding: 30px;
-    padding-bottom: 60px;
+    padding: 5% 2%;
     display: flex;
     justify-content: center;
-    
+    flex-wrap: wrap;
+
 }
 
 .card{
-    width: 250px;
-    height: 240px;
+    width: 35%;
     border: 3px solid #4A7C59;
     border-radius: 30px;
     font-family: Poppins, sans-serif;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 40px;
-    padding: 20px;
+    margin: 2.5%;
+    padding: 5%;
 }
 
 .contenido{
@@ -114,12 +115,11 @@
     color: #FAFAFA;
     display: flex;
     align-items: center;
-    padding-block: 60px;
-    padding-left: 60px;
+    padding: 5% 2%;
 }
 
 .questions, .answer{
-    width: 55%;
+    width: 100%;
     display: grid;
     align-items: center;
 }
@@ -127,11 +127,11 @@
 .dropdown{
     color: #FAFAFA;
     border-radius: 30px;
-    border-color: #4A7C59;
+    border: 3px solid #4A7C59;
     background-color: #86A890;
-    margin-bottom: 40px;
+    margin-bottom: 5%;
     text-align: left;
-    padding: 5px;
+    padding: 2%;
     display: flex;
     align-items: center;
     justify-content: space-between;   
@@ -139,11 +139,11 @@
 
 .answer{
     position: relative;
-    height: max-content;
     border-radius: 30px;
-    border-color: #0F1912;
+    border: 3px solid #0F1912;
     background-color: #4A7C59;
     color: #FAFAFA;
+    margin-top: 5%;
 }
 
 /*Footer*/
@@ -152,21 +152,16 @@
     background-color: #4A7C59;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-inline: 120px;
-    padding-block: 50px;
+    justify-content: space-around;
+    padding: 5%;
 }
 
 .contacto{
-    width: 10%;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-}
-
-.logo-secundario{
-    width: 300px;
-    height: 150px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .redes-sociales{
@@ -178,16 +173,57 @@
 .icono{
     height: 15px;
     width: 20px;
-    margin-right: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
 }
 
-.icono-rrss{
-    width: 50px;
-    height: 50px;
-    padding-right: 10px;
+.icono:hover {
+    transform: scale(2.1);
 }
+
+
 
 .salta-coders{
     width: 100px;
     height: 15px;
+}
+
+/* Iconos de redes sociales en el footer */
+.icono-rrss {
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+    transition: all 0.3s;
+}
+
+.icono-rrss:hover {
+    transform: scale(1.2);
+}
+
+.logo-secundario {
+    width: 225px;
+    height: 225px;
+    padding-right: 10px;
+    transition: all 0.3s;
+
+}
+
+.logo-secundario:hover {
+    transform: scale(1.1); 
+}
+
+/* Media Queries para hacerlo responsive */
+@media (max-width: 768px) {
+    .contacto {
+        justify-content: center; /* Centra los elementos en pantallas más pequeñas */
+    }
+
+    .icono {
+        margin-right: 5px; /* Reduzco aún más el margen en pantallas más pequeñas */
+    }
+
+    .icono-rrss {
+        margin-right: 5px; /* Reduzco aún más el margen en pantallas más pequeñas */
+    }
 }
