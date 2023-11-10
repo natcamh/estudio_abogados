@@ -1,5 +1,6 @@
 *{
     margin: 0%;
+    padding: 0%;
 }
 /*General*/
 .home, footer{
@@ -9,12 +10,11 @@
 /*Nav Bar*/
 .navbar{
     background-color: #4A7C59;
-    padding-inline: 30px;
-    padding-block: 20px;
+    padding: 3%;
     display: flex;
     align-items: center;
     color: #FAFAFA;
-    
+    width: 100%;
 }
 
 .logo-principal{
@@ -25,23 +25,20 @@
 
 /*Sección principal*/
 .main{
-    color: #FAFAFA;
-    background-image: url(/assets/imagen-presentacion.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 5% 2%;
-    display: flex;
-    align-items: end;
+    color: #4A7C59;
+    display: flexbox;
+    align-items: center;
     justify-content: space-evenly;
+    width: 100%;
 }
 .texto-principal{
-    width: 50%; 
-    margin-left: 50px;
+    width: 100%; 
+    margin: 5%;
 }
 
 /*Formulario*/
 .form{
-    width: 30%;
+    width: 80%;
     border-radius: 30px;
     border: 3px solid #4A7C59;
     border-color: #4A7C59;
@@ -52,6 +49,7 @@
     justify-content: center;
     flex-wrap: wrap;
     font-family: Poppins;
+    margin: 10%;
 }
 
 .text-form{
@@ -95,8 +93,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
 }
 .icono-justicia{
     width: 50px;
@@ -112,25 +108,24 @@
 
 .areas{
     padding: 5%;
-    display: flex;
-    justify-content: center;
+    display: grid;
 }
 
 .card{
-    width: 35%;
+    width: 75%;
     border: 3px solid #4A7C59;
     border-radius: 30px;
     font-family: Poppins, sans-serif;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 2.5%;
-    padding: 2%;
+    margin: 5%;
+    padding: 10%;
     justify-content: center;
     align-items: center;
-    justify-items: center;
+    justify-items: flex-end;
 }
 
 .contenido{
-    margin-top: 10px;
+    margin: 10px;
 }
 /*Sección Prguntas Frecuentes*/
 .preg-frec{
@@ -138,7 +133,7 @@
     background-size: cover;
     background-position: center;
     color: #FAFAFA;
-    display: flex;
+    display: grid;
     align-items: center;
     padding: 2% 2%;
 }
@@ -161,7 +156,7 @@
     align-items: center;
     justify-content: space-between;   
     font-size: 16px;
-    margin-right: 70px;
+    margin: 5%;
 }
 
 .answer{
@@ -180,20 +175,21 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 5%;
+    padding: 20%;
+    gap: 5%;
 }
 
 .contacto{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: start;
 }
 
 .redes-sociales{
     display: flex;
     align-items: center;  
+    padding: 10%;
 }
 
 /*Iconos*/
@@ -206,14 +202,13 @@
 }
 
 .icono:hover {
-    transform: scale(2.1);
+    transform: scale(1.1);
 }
-
-
 
 .salta-coders{
     width: 100px;
     height: 15px;
+    
 }
 
 /* Iconos de redes sociales en el footer */
@@ -229,7 +224,7 @@
 }
 
 .logo-secundario {
-    width: 225px;
+    width: 200px;
     height: 225px;
     padding-right: 10px;
     transition: all 0.3s;
@@ -240,17 +235,18 @@
     transform: scale(1.1); 
 }
 
-/* Media Queries para hacerlo responsive */
+/* Media Queries para hacerlo responsive 
 @media (max-width: 768px) {
     .contacto {
-        justify-content: center; /* Centra los elementos en pantallas más pequeñas */
+        justify-content: center; /* Centra los elementos en pantallas más pequeñas 
     }
 
     .icono {
-        margin-right: 5px; /* Reduzco aún más el margen en pantallas más pequeñas */
+        margin-right: 5px; /* Reduzco aún más el margen en pantallas más pequeñas 
     }
 
     .icono-rrss {
-        margin-right: 5px; /* Reduzco aún más el margen en pantallas más pequeñas */
+        margin-right: 5px; /* Reduzco aún más el margen en pantallas más pequeñas 
     }
 }
+*/
