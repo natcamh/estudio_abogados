@@ -37,6 +37,7 @@
 }
 .texto-principal{
     width: 50%; 
+    margin-left: 50px;
 }
 
 /*Formulario*/
@@ -140,7 +141,7 @@
     color: #FAFAFA;
     display: flex;
     align-items: center;
-    padding: 5% 2%;
+    padding: 2% 2%;
 }
 
 .questions, .answer{
@@ -156,10 +157,12 @@
     background-color: #86A890;
     margin-bottom: 5%;
     text-align: left;
-    padding: 2%;
+    padding: 1%;
     display: flex;
     align-items: center;
     justify-content: space-between;   
+    font-size: 16px;
+    margin-right: 70px;
 }
 
 .answer{
